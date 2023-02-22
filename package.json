@@ -1,0 +1,31 @@
+{
+  "name": "leftbox",
+  "description": "API para armazenamento de fotos e videos em nuvem",
+  "author": "Elvis Felix",
+  "keywords": [
+    "deploy, node, REST API, backend"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "nodemon src/scripts.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.9.1",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.6.0"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
+    "eslint": "^8.34.0",
+    "nodemon": "^2.0.20"
+  }
+}
